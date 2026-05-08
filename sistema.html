@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos2.css">
+    <script src="codigo.js"></script>
+    <title>SISTEMA</title>
+</head>
+
+<body>
+
+    <!--haciendo el form de afiliacion-->
+
+
+    <div id="div2" style="margin-left: 300px;">
+
+    <h1>AFILIACION DEL CLIENTE</h1>
+    <form>
+        <p><strong>Nombre</strong> <input type="text" id="nombre" placeholder="indique su nombre" required></p>
+        <p>Apellido <input type="text" id="apellido" placeholder="indique apellido"></p>
+        <p><u>EDAD</u> <input type="number" id="edad"></p>
+        <p>Fecha N<input type="date" name="fecha" value="2008-01-20"></p>
+        <p>EMAIL <input type="email" id="email" placeholder="Indique su email"></p>
+        <p>SEXO : Masculino <input type="radio" name="sexo" value="Masculino"> Femenino
+            <input type="radio" name="sexo" value="Femenino">
+
+     
+
+        
+
+
+
+    </form>
+
+    <button onclick="afiliar()">AFILIAR</button>
+    <br>
+    <p id="resultado3"></p>
+
+
+
+    </div>
+
+
+    <div id="div2">
+
+
+
+
+     <h1 class="nuevo">COTIZAR AUTO</h1>
+
+
+     <form>
+
+        <p>Marcas disponibles:
+            <select id="marca">
+                <option value="1">RENAULT</option>
+                <option value="2">FIAT</option>
+                <option value="3">TOYOTA</option>
+            </select>
+        </p>
+
+        <p>TIPO DE AUTO:
+          <select id="tauto">
+            <option value="1">CAMIONETA</option>
+            <option value="2">SEDAN</option>
+            <option value="3">DEPORTIVO</option>
+
+          </select>
+
+
+        </p>
+
+         <p>FINANCIAMIENTO:
+          <select id="fina">
+            <option value="0"></option>
+            <option value="1">BASICO</option>
+            <option value="2">MUCHAS CUOTAS</option>
+            <option value="3">POCAS CUOTAS</option>
+
+          </select>
+
+
+        </p>
+
+         
+         <p>COMENTARIOS<textarea></textarea></p>
+
+
+
+         </form>
+
+         <button onclick="cotizar()">COTIZAR</button>
+         <br>
+         <p id="resultado4"></p>
+
+
+
+
+         </div>
+
+
+
+    
+
+
+
+</body>
+
+</html>
