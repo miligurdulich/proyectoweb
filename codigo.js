@@ -50,7 +50,7 @@ function validar() {
     var clave = document.getElementById("clave").value;
 
     if (usu == "eduardo" && clave == "1234") {
-        window.location.href = "./sistema.html";
+        window.location.href = "sistema.html";
     } else {
         alert("Are you crazy??");
     }
@@ -67,12 +67,13 @@ function limpiar() {
 //funcion para afiliar
 
 function afiliar() {
-    var ma = document.getElementById("email").value;
+    var ema = document.getElementById("email").value;
     document.getElementById("nombre").value = "";
     document.getElementById("apellido").value = "";
     document.getElementById("edad").value = "";
     document.getElementById("email").value = "";
-    if (ma == "eldelima@gmail.com") {
+
+    if (ema == "eldelima@gmail.com") {
         document.getElementById("resultado3").textContent = "USUARIO YA EXISTE";
     } else {
         document.getElementById("resultado3").textContent = "USUARIO AFILIADO";
@@ -81,26 +82,54 @@ function afiliar() {
 
 
 
+
+
+
 }
 
-//funcion cotizar
 
 function cotizar() {
-    var ma = document.getElementById("marca").value;
-    var ti = document.getElementById("tauto").value;
-    var fi = document.getElementById("fina").value;
 
-    if (ma == "1" && ti == "1" && fi == "1") {
-        document.getElementById("resultado4").textContent = "el plan vale 25.000 dolares";
+    var mar = document.getElementById("marca").value;
+    var ti = document.getElementById("tipo").value;
+
+    if (mar == "1" && ti == "1") {
+        document.getElementById("resultado4").textContent = "15.000 dolares";
+    }
+
+    if (mar == "1" && ti == "2") {
+        document.getElementById("resultado4").textContent = "30.000 dolares";
+    }
+
+    if (mar == "1" && ti == "3") {
+        document.getElementById("resultado4").textContent = "25.000 dolares";
+    }
+    if (mar == "1" && ti == "4") {
+        document.getElementById("resultado4").textContent = "18.000 dolares";
+    }
+
+    if (mar == "2" && ti == "1") {
+        document.getElementById("resultado4").textContent = "80.000 dolares";
+    }
+
+    if (mar == "2" && ti == "2") {
+        document.getElementById("resultado4").textContent = "130.000 dolares";
+    }
+
+    if (mar == "2" && ti == "3") {
+        document.getElementById("resultado4").textContent = "125.000 dolares";
+    }
+    if (mar == "2" && ti == "4") {
+        document.getElementById("resultado4").textContent = "118.000 dolares";
     }
 
 
 
 
-
-
-
 }
+
+
+
 
 
 
