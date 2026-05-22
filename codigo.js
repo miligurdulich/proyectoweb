@@ -35,7 +35,7 @@ function registrar(){
     }
 }
 
-function catalogo(){
+function cotizar(){
     var pre = document.getElementById("prenda").value;
     var tal = document.getElementById("talle").value;
     var col = document.getElementById("color").value;
