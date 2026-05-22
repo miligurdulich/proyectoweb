@@ -107,5 +107,5 @@ function aplicarDescuento(){
 }
 
 function volver(){
-    window.location.href = "indexprofe.html";
+    window.location.href = "index.html";
 }
