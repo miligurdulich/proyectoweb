@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:100vh;
+    display: flex;
+    background:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("fotoropa3.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.div1,
+#div2,
+header{
+
+    background:rgba(255,255,255,0.15);
+    background-blend-mode:luminosity;
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.4);
+    background:
+    url("fotoropa4.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.div1{
+    width:850px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+header,
+#div2{
+    width:420px;
+    text-align:center;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:25px;
+    color:white;
+}
+h2{
+    margin-bottom:20px;
+}
+h2{
+    margin-bottom:20px;
+}
+
+p{
+    margin:18px 0;
+}
+
+input,
+select{
+
+    width:220px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:12px;
+
+    outline:none;
+
+    margin-left:10px;
+}
+
+button{
+
+    padding:12px 28px;
+
+    border:none;
+
+    border-radius:25px;
+
+    background:#ff4fa3;
+
+    color:white;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    margin:12px;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    background:#ff85c2;
+
+    transform:scale(1.05);
+}
+
+#resultado3,
+#resultado4,
+#resultado5{
+
+    margin-top:20px;
+    padding:15px;
+    border-radius:15px;
+    background:rgba(255,255,255,0.2);
+}
+
+.catalogo,
+
+.promo{
+
+    width:400px;
+
+    padding:30px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(10px);
+
+    text-align:center;
+
+}
+
+.foto-catalogo{
+
+    width:220px;
+
+    border-radius:20px;
+
+    margin:20px 0;
+
+}
+
+.promo{
+
+    background-size:cover;
+
+    background-position:center;
+}
