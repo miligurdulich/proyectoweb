@@ -5,7 +5,7 @@ function validar(){
     var clave = document.getElementById("clave").value;
 
     if(usuario == "milig" && clave == "milig"){
-        window.location.href = "sistemaprofe.html";
+        window.location.href = "sistema.html";
     }else{
         alert("Usuario inexistente o clave incorrectos");
     }
