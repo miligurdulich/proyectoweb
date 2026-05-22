@@ -107,5 +107,5 @@ function aplicarDescuento(){
 }
 
 function volver(){
-    window.location.href = "index.html";
+    window.location.href = "indeX.html";
 }
